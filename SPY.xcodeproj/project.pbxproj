@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD2B1B691EAC0A6F00BA62FF /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B1B681EAC0A6F00BA62FF /* Agent.swift */; };
 		CD559D5E1EA9CD1C0074B34B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD559D5D1EA9CD1C0074B34B /* AppDelegate.swift */; };
-		CD559D601EA9CD1C0074B34B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD559D5F1EA9CD1C0074B34B /* ViewController.swift */; };
+		CD559D601EA9CD1C0074B34B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD559D5F1EA9CD1C0074B34B /* MainViewController.swift */; };
 		CD559D631EA9CD1C0074B34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD559D611EA9CD1C0074B34B /* Main.storyboard */; };
 		CD559D661EA9CD1C0074B34B /* SPY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD559D641EA9CD1C0074B34B /* SPY.xcdatamodeld */; };
 		CD559D681EA9CD1C0074B34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD559D671EA9CD1C0074B34B /* Assets.xcassets */; };
 		CD559D6B1EA9CD1C0074B34B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD559D691EA9CD1C0074B34B /* LaunchScreen.storyboard */; };
 		CD559D761EA9CD1C0074B34B /* SPYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD559D751EA9CD1C0074B34B /* SPYTests.swift */; };
 		CD559D811EA9CD1C0074B34B /* SPYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD559D801EA9CD1C0074B34B /* SPYUITests.swift */; };
+		CDDD17971EB2F53400D7C3BE /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD17961EB2F53400D7C3BE /* GameSession.swift */; };
+		CDDD17991EB30B2F00D7C3BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD17981EB30B2F00D7C3BE /* LoginViewController.swift */; };
+		CDDDFF031EAED5030069F87E /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDFF021EAED5030069F87E /* RequestModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD2B1B681EAC0A6F00BA62FF /* Agent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
 		CD559D5A1EA9CD1B0074B34B /* SPY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD559D5D1EA9CD1C0074B34B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD559D5F1EA9CD1C0074B34B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD559D5F1EA9CD1C0074B34B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CD559D621EA9CD1C0074B34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD559D651EA9CD1C0074B34B /* SPY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SPY.xcdatamodel; sourceTree = "<group>"; };
 		CD559D671EA9CD1C0074B34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		CD559D7C1EA9CD1C0074B34B /* SPYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD559D801EA9CD1C0074B34B /* SPYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPYUITests.swift; sourceTree = "<group>"; };
 		CD559D821EA9CD1C0074B34B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDD17961EB2F53400D7C3BE /* GameSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		CDDD17981EB30B2F00D7C3BE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CDDDFF021EAED5030069F87E /* RequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				CD559D5D1EA9CD1C0074B34B /* AppDelegate.swift */,
-				CD559D5F1EA9CD1C0074B34B /* ViewController.swift */,
+				CDDD17981EB30B2F00D7C3BE /* LoginViewController.swift */,
+				CD559D5F1EA9CD1C0074B34B /* MainViewController.swift */,
+				CDDDFF021EAED5030069F87E /* RequestModel.swift */,
+				CDDD17961EB2F53400D7C3BE /* GameSession.swift */,
+				CD2B1B681EAC0A6F00BA62FF /* Agent.swift */,
 				CD559D611EA9CD1C0074B34B /* Main.storyboard */,
 				CD559D671EA9CD1C0074B34B /* Assets.xcassets */,
 				CD559D691EA9CD1C0074B34B /* LaunchScreen.storyboard */,
@@ -196,6 +208,7 @@
 				TargetAttributes = {
 					CD559D591EA9CD1B0074B34B = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = QHQUCCEZW9;
 						ProvisioningStyle = Automatic;
 					};
 					CD559D701EA9CD1C0074B34B = {
@@ -262,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD559D601EA9CD1C0074B34B /* ViewController.swift in Sources */,
+				CDDD17991EB30B2F00D7C3BE /* LoginViewController.swift in Sources */,
+				CDDDFF031EAED5030069F87E /* RequestModel.swift in Sources */,
+				CD559D601EA9CD1C0074B34B /* MainViewController.swift in Sources */,
+				CD2B1B691EAC0A6F00BA62FF /* Agent.swift in Sources */,
 				CD559D5E1EA9CD1C0074B34B /* AppDelegate.swift in Sources */,
+				CDDD17971EB2F53400D7C3BE /* GameSession.swift in Sources */,
 				CD559D661EA9CD1C0074B34B /* SPY.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QHQUCCEZW9;
 				INFOPLIST_FILE = SPY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PT.SPY;
@@ -430,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QHQUCCEZW9;
 				INFOPLIST_FILE = SPY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PT.SPY;
@@ -511,6 +530,7 @@
 				CD559D871EA9CD1C0074B34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD559D881EA9CD1C0074B34B /* Build configuration list for PBXNativeTarget "SPYTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +539,7 @@
 				CD559D8A1EA9CD1C0074B34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD559D8B1EA9CD1C0074B34B /* Build configuration list for PBXNativeTarget "SPYUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +548,7 @@
 				CD559D8D1EA9CD1C0074B34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
